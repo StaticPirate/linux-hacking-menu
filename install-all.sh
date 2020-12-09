@@ -11,13 +11,27 @@ purple='\033[0;35m'       # Purple
 cyan='\033[0;36m'         # Cyan
 white='\033[0;37m'        # White
 
+#other installs
+
+pip3 install catt
+
 #apt-get installs
+
+echo -e "${green}[+] Installing update${blue}"
 
 apt-get install update
 apt-get install upgrade
+
+echo -e "${green}[+]Installing nmap${blue}"
+
 apt-get install nmap
-apt-get install git
+
+echo -e "${green}[+]Installing netcat${blue}"
+
 apt-get install netcat
+
+echo -e "${green}[+]Installing all python tools${blue}"
+
 sudo apt-get install python
 sudo apt-get install python2
 sudo apt-get install python3
@@ -28,4 +42,13 @@ sudo apt-get install libffi-dev
 sudo apt-get install python3-dev
 
 #github installs
+echo -e "${green}[+]Installing Hatch${blue}"
+git clone https://github.com/nsgodshall/Hatch.git
+
+#evillimiter
+echo -e "${green}[+]Installing evillimiter${blue}"
+git clone https://github.com/bitbrute/evillimiter.git
+cd evillimiter
+python3 setup.py install
+cd -
 
