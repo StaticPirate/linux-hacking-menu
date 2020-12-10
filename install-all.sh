@@ -11,6 +11,9 @@ purple='\033[0;35m'       # Purple
 cyan='\033[0;36m'         # Cyan
 white='\033[0;37m'        # White
 
+#presetup 
+mkdir github-installs
+
 #other installs
 
 pip3 install catt
@@ -46,6 +49,10 @@ echo -e "${green}[+]Installing make${blue}"
 apt-get install make
 
 #github installs
+
+cd github-installs
+
+#hatch
 echo -e "${green}[+]Installing Hatch${blue}"
 git clone https://github.com/nsgodshall/Hatch.git
 
