@@ -41,6 +41,10 @@ sudo apt-get install python-dev #python3 dev tools
 sudo apt-get install libffi-dev
 sudo apt-get install python3-dev
 
+echo -e "${green}[+]Installing make${blue}"
+
+apt-get install make
+
 #github installs
 echo -e "${green}[+]Installing Hatch${blue}"
 git clone https://github.com/nsgodshall/Hatch.git
@@ -52,3 +56,14 @@ cd evillimiter
 python3 setup.py install
 cd -
 
+#h8mail
+echo -e "${green}[+]Installing h8mail${blue}"
+git clone https://github.com/khast3x/h8mail.git
+cd h8mail
+make
+make insatll
+cd -
+
+#sherlock
+echo -e "${green}[+]Installing sherlock${blue}"
+git clone https://github.com/sherlock-project/sherlock.git
