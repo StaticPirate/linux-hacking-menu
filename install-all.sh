@@ -13,6 +13,7 @@ cyan='\033[0;36m'         # Cyan
 white='\033[0;37m'        # White
 
 #aporve install
+echo -e "${red}WARNING IF YOU ARE NOT ROOT SCRIPT WILL BREAK${nc}"
 echo -e "${green}Are You Sure You Want To Install? It May Take Awhile${nc}"
  read -p "$* [y/n]: " yn
         case $yn in
