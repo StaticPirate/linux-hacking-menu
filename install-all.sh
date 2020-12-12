@@ -76,4 +76,6 @@ echo -e "${green}[+]Installing sherlock${blue}"
 git clone https://github.com/sherlock-project/sherlock.git
 
 #H1R0GH057 / Anonymous
-Echo -e "${green}${blue}"
+echo -e "${green}[+]Installing H1R0GH057 / Anonymous${blue}"
+git clone https://github.com/H1R0GH057/Anonymous.git
+
